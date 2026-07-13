@@ -1,0 +1,13 @@
+flet run mainv12_web.py --web --port 8550 --host 192.168.0.44
+flet run mainv12_web.py --web --port 8550 --host 0.0.0.0
+C:\Users\Gernet\Desktop\man 2026\poxedex
+
+local
+.venv\Scripts\Activate.ps1
+python mainv12.py
+
+
+limpia py
+cmd
+taskkill /F /IM python.exe
+python -m http.server 8550 --bind 0.0.0.0
